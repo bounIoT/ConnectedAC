@@ -1,5 +1,3 @@
-# ConnectedAC
-
 
 # Description of the project
 
@@ -7,22 +5,28 @@ Automatically controlled air conditioner system which turns on and off the air c
 
 # Team Members
 
-/Çağrı Kılıçoğlu
-/Abdulsamed Bayrakoğlu
+Çağrı Kılıçoğlu   
+Abdulsamed Bayrakoğlu
 
 ### Hardware setup
 
-Components Used:
--IR sender
--ESP 8266
+Components Used:    
+- IR sender   
+- ESP 8266
 
+Connections: 
 
+- IR sender GND  to ESP 8266   
+- IR sender V to ESP 8266 D7
 
 ### Flow of data 
-Draw flow of data in your **implementation**. At each node, specify the name of the code that processes the input data and produces the output. Note that the code name, input data name, output name must be consistent with the names at the Code part.
+
+Instantaneous weather is coming to the ESP 8266 every five minutes.   
+If the temperature is above a certain level ESP 8266 send ON signal to the air conditioner via IR sender
+If the temperature is below a certain level ESP 8266 send OFF signal to the air conditioner via IR sender
+
 
 ### Development Environment
-In this part, describe your development environment. Mainly,
-* Development Operating System: MacOS High Sierra 10.13.4
-* Development tool: nodeJs
 
+Development Operating System: MacOS High Sierra 10.13.4   
+Development tool: nodeJs
