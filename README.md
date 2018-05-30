@@ -3,13 +3,12 @@
 
 # Description of the project
 
-Describe your project here ...
+Automatically controlled air conditioner system which turns on and off the air conditioner depending on the instantaneous weather.
 
 # Team Members
 
-Introduce yourself shortly... 
-
-
+Çağrı Kılıçoğlu
+Abdulsamed Bayrakoğlu
 
 ### Hardware setup
 Components and boards that you use. Specify board-component connections by writing pin-to-pin connections. Experienced students may prefer drawing schematics.
