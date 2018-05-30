@@ -7,8 +7,8 @@ Automatically controlled air conditioner system which turns on and off the air c
 
 # Team Members
 
-Çağrı Kılıçoğlu
-Abdulsamed Bayrakoğlu
+/Çağrı Kılıçoğlu
+/Abdulsamed Bayrakoğlu
 
 ### Hardware setup
 
